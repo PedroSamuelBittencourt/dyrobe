@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center; 
+
+}
+
+#descricao{
+    flex: 1;
+    position: absolute;
+    top: 5px; 
+   
+    color: white;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+nav{
+    flex: 1;
+    position: absolute;
+    top: 60px; 
+   
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    width: 1850px;
+    height: 80px;
+    border-radius: 6px;
+}
+nav .menu a{
+    text-decoration: none;
+    padding-right: 7px;
+    padding: 23px;
+    font-weight: bold;
+    color: black; 
+    font-size: 19px;
+    font-family: "Roboto", sans-serif;
+}
+.menu{
+    flex: 1;
+    text-align: left;
+    
+}
+.logo{
+    flex: 1;
+}
+.pesquisa{
+    flex: 1;
+    text-align: right;
+    color: black;
+}
+.pesquisa a{
+   text-decoration: none;
+   color: black;
+}
+
+.pesquisa input{
+    font-size: 20px;
+    width: 285px;
+    text-align: right;
+    height: 37px;
+    
+    /* padding-right: 30px; */
+}
+#lupa{
+    position: absolute;
+    right: 368px;
+    top: 32px;
+    font-size: 20px;
+    color: #757575;
+}
+.pesquisa i{
+    font-size: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#escrituras{
+    position: absolute;
+    flex: 1;
+    top: 0px;
+    bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    top: 500px;
+
+}
+#escrituras h1{
+    flex: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    margin-bottom: 15px;
+}
+
+#escrituras h2{
+    flex: 1;
+    font-family: "Roboto", sans-serif;
+    font-weight: 380;
+    font-style: normal;
+}
+#botoes{
+    position: absolute;
+    top: 800px;
+}
+#botoes button{
+    width: 150px;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+
+/* .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  } */
+  
+
